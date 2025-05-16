@@ -1,0 +1,8 @@
+file_format: "1"
+id: cool436
+name: cool436
+type: shield
+url: https://github.com/telzo2000/zmk-config-cool436
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
