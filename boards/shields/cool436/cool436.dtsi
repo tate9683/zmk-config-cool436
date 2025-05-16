@@ -80,8 +80,8 @@
             row-gpios
                 = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
                 , <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
-                , <&gpio0 9 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
-                , <&gpio0 10 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+                , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
                 ;
     };
 };
