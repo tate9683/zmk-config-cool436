@@ -24,19 +24,20 @@
         tab {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
-            layers = <0 4>;
+            layers = <0>;
         };
 
         shift_tab {
             bindings = <&kp TAB>;
             key-positions = <10 11>;
             require-prior-idle-ms = <0>;
-            layers = <1>;
+            layers = <0>;
         };
 
         double_quotation {
             bindings = <&kp CAPS>;
             key-positions = <20 21>;
+            layers = <0>;
         };
 
         eq {
