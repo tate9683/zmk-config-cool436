@@ -1,7 +1,7 @@
 if SHIELD_cool436
 
 config ZMK_KEYBOARD_NAME
-    default "cool436"
+    default "splitrow42"
 
 
 endif
